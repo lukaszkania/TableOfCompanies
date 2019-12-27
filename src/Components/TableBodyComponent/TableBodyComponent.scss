@@ -1,0 +1,16 @@
+tbody{
+    tr{
+        border-bottom: 1px solid #dddddd;
+        &:nth-of-type(even){
+            background-color: #f3f3f3;
+        }
+        &:last-child{
+            border-bottom: 2px solid #009879;
+        }
+        td{
+            padding: 12px 15px;
+            text-align: center;
+            letter-spacing: 0.5px;
+        }
+    }
+}
